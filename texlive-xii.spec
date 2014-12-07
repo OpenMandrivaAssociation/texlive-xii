@@ -6,7 +6,7 @@
 # catalog-version undef
 Name:		texlive-xii
 Version:	20130917
-Release:	7
+Release:	8
 Summary:	Christmas silliness
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/macros/plain/contrib/xii
