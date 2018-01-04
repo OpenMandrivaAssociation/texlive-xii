@@ -5,8 +5,8 @@
 # catalog-license lppl
 # catalog-version undef
 Name:		texlive-xii
-Version:	20130917
-Release:	9
+Version:	20171115
+Release:	1
 Summary:	Christmas silliness
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/macros/plain/contrib/xii
@@ -22,8 +22,7 @@ TeXLive xii package.
 
 #-----------------------------------------------------------------------
 %files
-%doc %{_texmfdistdir}/doc/plain/xii/README
-%doc %{_texmfdistdir}/doc/plain/xii/xii.tex
+%doc %{_texmfdistdir}/doc/plain/xii
 
 #-----------------------------------------------------------------------
 %prep
