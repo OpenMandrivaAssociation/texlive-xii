@@ -5,7 +5,7 @@
 # catalog-license lppl
 # catalog-version undef
 Name:		texlive-xii
-Version:	20171115
+Version:	20180303
 Release:	1
 Summary:	Christmas silliness
 Group:		Publishing
