@@ -1,18 +1,12 @@
-# revision 31683
-# category Package
-# catalog-ctan /macros/plain/contrib/xii
-# catalog-date 2013-09-17 19:06:55 +0200
-# catalog-license lppl
-# catalog-version undef
 Name:		texlive-xii
-Version:	20190228
+Version:	45804
 Release:	1
 Summary:	Christmas silliness
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/macros/plain/contrib/xii
 License:	LPPL
-Source0:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/xii.tar.xz
-Source1:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/xii.doc.tar.xz
+Source0:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/xii.r%{version}.tar.xz
+Source1:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/xii.doc.r%{version}.tar.xz
 BuildArch:	noarch
 BuildRequires:	texlive-tlpkg
 Requires(pre):	texlive-tlpkg
@@ -26,7 +20,7 @@ TeXLive xii package.
 
 #-----------------------------------------------------------------------
 %prep
-%setup -c -a0 -a1
+%autosetup -p1 -c -a1
 
 %build
 
