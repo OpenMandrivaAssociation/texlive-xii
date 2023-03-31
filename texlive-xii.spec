@@ -1,6 +1,6 @@
 Name:		texlive-xii
 Version:	45804
-Release:	1
+Release:	2
 Summary:	Christmas silliness
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/macros/plain/contrib/xii
