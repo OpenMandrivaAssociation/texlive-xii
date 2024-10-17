@@ -3,7 +3,7 @@ Version:	45804
 Release:	2
 Summary:	Christmas silliness
 Group:		Publishing
-URL:		http://www.ctan.org/tex-archive/macros/plain/contrib/xii
+URL:		https://www.ctan.org/tex-archive/macros/plain/contrib/xii
 License:	LPPL
 Source0:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/xii.r%{version}.tar.xz
 Source1:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/xii.doc.r%{version}.tar.xz
